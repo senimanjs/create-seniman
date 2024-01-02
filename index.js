@@ -60,16 +60,15 @@ async function fetchDirectoryNames() {
 
 async function main() {
   console.log('\x1b[1mclone-seniman-app\x1b[0m');
-  console.log('Loading example apps from https://github.com/senimanjs/seniman/tree/main/examples ...');
+  console.log('Loading Seniman example apps from https://github.com/senimanjs/seniman/tree/main/examples ...');
   console.log('========');
 
   try {
     let directories = await fetchDirectoryNames();
 
     // Important apps to surface
-    const importantOptions = ['hello-world', 'routing-basic', 'mini-ecommerce'];
+    const importantOptions = ['hello-world', 'counter', 'routing-basic', 'login-basic', 'mini-ecommerce'];
 
-    // Filter out the important options and add them to the beginning
     // Filter out the important options and add them to the beginning
     directories = importantOptions
       .filter(option => directories.includes(option))
