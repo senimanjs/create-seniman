@@ -1,5 +1,5 @@
 {
-  "name": "clone-seniman-app",
+  "name": "create-seniman",
   "version": "0.0.3",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "clone-seniman-app": "./index.js"
+    "create-seniman": "./index.js"
   },
   "author": "",
   "license": "ISC",

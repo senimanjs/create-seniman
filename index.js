@@ -59,7 +59,7 @@ async function fetchDirectoryNames() {
 }
 
 async function main() {
-  console.log('\x1b[1mclone-seniman-app\x1b[0m');
+  console.log('\x1b[1mcreate-seniman\x1b[0m');
   console.log('Loading Seniman example apps from https://github.com/senimanjs/seniman/tree/main/examples ...');
   console.log('========');
 
