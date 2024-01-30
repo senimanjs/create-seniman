@@ -1,6 +1,6 @@
 {
   "name": "create-seniman",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -10,6 +10,10 @@
   "bin": {
     "create-seniman": "./index.js"
   },
+  "bugs": {
+    "url": "https://github.com/senimanjs/create-seniman/issues"
+  },
+  "homepage": "https://github.com/senimanjs/create-seniman#readme",
   "author": "",
   "license": "ISC",
   "dependencies": {
